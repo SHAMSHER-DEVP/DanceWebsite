@@ -1,0 +1,56 @@
+
+     ---- Steps code push 
+
+  1 #  for give naming : if the name is have many character with spaces then user  this --> "";
+
+    git config --global user.name "your name"    
+
+  2 # 
+
+    git config --global user.email "your_email@gmail.com"
+
+  3 # make the .gitignore file,  in it we writ that file will igore at production level
+
+    touch .gitignore
+
+  4 #   it will initailaze your folder and create .git folder
+
+    git init 
+
+  5 #  all  my content add in the staging area by this command;
+
+    git add .
+
+  6 # through it you can take snapshot of your change able thing and associate with commit;
+
+   git commit -m "initial commit"
+
+  7 # : it tell you what your git status right now is running;
+  
+   git status
+
+ #  //  when  you see following message after enter the git status , then consider your are ready to deplay your project ;
+// On branch main
+// nothing to commit, working tree clean #
+
+  8 # : 
+  //  after clik on SSh , i take copy of this ssh section , after  it run;
+  9 # : it will uploaded your all current file content instead of that file you ignored; command is 
+
+    git remote add origin  ssh_section_link
+
+ # thorugh it , your all content will connect to your github link that you provide;
+
+  10 # :  // ssh key generator ::
+
+      ssh-keygen -t ed25519 -C "your_email@example.com"
+    
+    # copy the file path where it save from upper line in cmd and
+    # then go to your git hub repositary in ssh key and past it in key section and then add   ;
+
+ 11 # :  then  again i will write :
+  git push origin main  
+  # then enter ; now your all file will push to your git-hub in repositary 
+
+
+#  now  all steps has done. Your code has been added in your repositary ; enjoy it , and feel happy; 
