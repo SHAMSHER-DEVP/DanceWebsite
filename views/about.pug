@@ -1,0 +1,27 @@
+html
+  head
+    title= title
+  style
+    include ../public/CSS/style.css
+  body
+  <nav>
+      <li>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact us </a>
+      </li>
+  </nav>
+    h1= content
+
+    <div class=" con " >
+        <form action="/create" method="post">
+          <input class="inp" name="name" type="text" placeholder="enter the name"> <br>
+          <input class="inp" name="age" type="text" placeholder="enter your age "> <br>
+          <input class="inp" name="gender" type="text" placeholder="enter your gender "> <br>
+          <textarea class="inp" name="address" id="" cols="30" rows="10" placeholder="enter address " ></textarea> <br>
+
+          <button type="submit" class="btn">submit</button>
+        </form>
+    </div>
+
+    

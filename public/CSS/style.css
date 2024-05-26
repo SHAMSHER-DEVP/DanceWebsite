@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.text{
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-style: italic;
+   font-weight: bold;
+  
+}
+.ht{
+   height: 40px;
+   width: 40px;
+   filter: brightness(150%);
+
+}
+.bg{
+   background-color: rgba(216, 112, 147, 0.726);
+}
+.text:hover{
+   color: white !important;
+}
+.logo{
+   filter: brightness(150%);
+   border: 2px solid red;
+   
+}
+
+
+#intoSection{
+   background: top/cover no-repeat url('../dance.jpg');
+   padding: 1.5in;
+}
+
+.imgsz{
+   width: 25%;
+}
+/*  sponsor section styling  */
+.img_sp{
+   width: ;
+}

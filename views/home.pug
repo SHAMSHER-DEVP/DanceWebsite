@@ -1,0 +1,54 @@
+extends base.pug
+block scripts 
+    script(src="/JS/index.js") 
+block style 
+    style   
+        include ../public/CSS/bootstrap.min.css
+        include ../public/CSS/style.css
+block content 
+    //- nav.nav.bg-warning.text-capitalize.d-flex.justify-content-center.py-1.align-items-center 
+      a(href="/").nav-brand.text.me-5.border 
+        img(src="/male_dancer.png", alt="the image not founded ").img-fluid.ht.text-light
+        p.d-inline S-M
+      a(href="").nav-link.text-white-50.text Home 
+      a(href="").nav-link.text-white-50.text About 
+      a(href="").nav-link.text-white-50.text contact us 
+      a(href="").nav-link.text-white-50.text Services  
+      a(href="").nav-link.text-white-50.text Class-info  
+    
+    
+    section#intoSection.border.border-danger.text-center.text-white.fs-1.d-flex.flex-column.justify-content-center 
+       div #[ Welcome to SM-Dance Academy]
+       div #[ eat sleep dance repeat] 
+                             //- dont write any word by  touch of [] like  [dfdf ] , therwise it not display
+    section.row.justify-content-evenly.p-2.g-
+        div.col-12.text-center.text.text-capitalize.d-flex.justify-content-around
+          h2 #[ our mission]
+          
+        div.col-3.border.border-dark.rounded-2.p-2 
+         h4.text-center #[ Dace perfection]
+         div.d-flex.justify-content-around.align-items-center
+            img(src="/male_dancer.png", alt="image not founded").img-fluid.imgsz
+            p #[ this is the best acemdy for dance in the unvierse]
+        div.col-3.border.border-dark.rounded-2 
+          h4.text-center #[ Dace way you like]
+          div.d-flex.justify-content-around.align-items-center
+            img(src="/d2.png", alt="image not founded").img-fluid.imgsz
+            p #[ this is the best acemdy for dance in the unvierse]
+        
+        div.col-3.border.border-dark.rounded-2 
+          h4.text-center #[  Expert teaching]
+          div.d-flex.justify-content-around.align-items-center
+            img(src="/fm.png", alt="image not founded").img-fluid.imgsz
+            p #[ this is the best acemdy for dance in the unvierse]
+    section#sponsorSection.bg 
+        h2.text.text-center #[ our sponsor]
+        div.row.d-flex.justify-content-center.align-items-center.text-center.my-3.py-2
+          div.border.border-info.m-2.col-2
+            a(href="") #[img(src="/facebook.svg", alt="").imgsz]  
+          div.border.border-info.m-2.col-2
+            a(href="") #[img(src="/windows.svg", alt="").imgsz]   
+          div.border.border-info.m-2.col-2
+            a(href="") #[img(src="/apple.svg", alt="").imgsz]   
+          div.border.border-info.m-2.col-2
+            a(href="") #[img(src="/skype.svg", alt="").imgsz]   
